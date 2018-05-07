@@ -1,0 +1,22 @@
+{
+  "name": "smart-cli",
+  "version": "1.0.0",
+  "description": "this is a web font-end project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxxwslq/smart-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "zxx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxxwslq/smart-cli/issues"
+  },
+  "homepage": "https://github.com/zxxwslq/smart-cli#readme"
+}
