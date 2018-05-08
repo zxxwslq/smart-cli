@@ -140,11 +140,9 @@ if(utils.isExist(projectDirPath)) {
 
 function runTask() {
   let isLocalTemplate = utils.isLocalTemplate(template);
-
   if(isLocalTemplate) {
     let templatePath = template.startsWith('/') || /^\w:/.test(template) ?
       template : path.normalize(path.join(process.cwd(), template));
-
     if(utils.isExist(templatePath)) {
       log.success(`Template is from ${templatePath}`);
       log.tip();
